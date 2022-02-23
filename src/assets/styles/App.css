@@ -1,0 +1,78 @@
+.App {
+  display: block;
+}
+
+.App .APPC{
+  display: flex;
+  justify-content: space-evenly;
+}
+.App p{
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App .divComp{
+  margin-top: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App .component{
+  width: 150px;
+  height: 60px;
+  background-color: rgb(255, 236, 169);
+  margin-top: 30px;
+  border-radius: 4px;
+  border: black 2px solid;
+}
+.App .CompApp .componentBlue{
+  width: 150px;
+  height: 60px;
+  background-color: rgb(193, 228, 247);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius: 4px;
+  border: black 2px solid;
+}
+.App .appTextDiv{
+  display: flex;
+  justify-content: center;
+}
+.App .inComponent{
+  margin-top: 30px;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(209, 188, 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: black 2px solid;
+}
